@@ -1,0 +1,36 @@
+# Deep Learning Framework
+tensorflow==2.15.0
+tensorflow-addons==0.23.0
+
+# Vision Transformer
+vit-keras==0.1.2
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+pillow==10.0.0
+opencv-python==4.8.0.76
+scikit-image==0.21.0
+
+# Augmentation
+albumentations==1.3.1
+imgaug==0.4.0
+
+# Metrics and Visualization
+scikit-learn==1.3.0
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.16.1
+
+# Grad-CAM
+tf-keras-vis==0.8.5
+
+# Utilities
+tqdm==4.66.1
+pyyaml==6.0.1
+jupyter==1.0.0
+ipywidgets==8.1.0
+
+# Medical Image Processing
+pydicom==2.4.3
+SimpleITK==2.2.1

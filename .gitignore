@@ -1,0 +1,162 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.env.local
+.env.*.local
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Data directories - DO NOT COMMIT DATASETS
+data/raw/*
+data/processed/*
+data/augmented/*
+# Keep directory structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/augmented/.gitkeep
+
+# Model weights and checkpoints - LARGE FILES
+models/saved_models/*
+!models/saved_models/.gitkeep
+*.h5
+*.hdf5
+*.weights
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.pb
+checkpoint
+
+# TensorFlow
+*.tfevents.*
+*.ckpt.*
+*.index
+*.meta
+*.data-00000-of-*
+
+# Results and outputs
+results/metrics/*
+results/plots/*
+results/gradcam_viz/*
+!results/metrics/.gitkeep
+!results/plots/.gitkeep
+!results/gradcam_viz/.gitkeep
+
+# Logs
+*.log
+logs/
+tensorboard/
+wandb/
+mlruns/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+temp/
+tmp/
+
+# Secrets and credentials
+*.key
+*.pem
+credentials.json
+secrets.yaml
+secrets.json
+.env.production
+.env.development
+config.local.py
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Project specific
+*.csv
+*.xlsx
+*.xls
+# Except sample/example files
+!*sample*.csv
+!*example*.csv
